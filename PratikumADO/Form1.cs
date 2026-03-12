@@ -17,7 +17,7 @@ namespace PratikumADO
             InitializeComponent();
         }
 
-        private void Label1(object sender, EventArgs e)
+        private void BtnConnect_Click(object sender, EventArgs e)
         {
 
         }
