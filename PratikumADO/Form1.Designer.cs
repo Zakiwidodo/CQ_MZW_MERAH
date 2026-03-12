@@ -30,7 +30,7 @@
         {
             this.BtnConnect = new System.Windows.Forms.Button();
             this.btnHitungMhs = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnHitungMK = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.hasil = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
@@ -56,14 +56,15 @@
             this.btnHitungMhs.UseVisualStyleBackColor = true;
             this.btnHitungMhs.Click += new System.EventHandler(this.btnHitungMhs_Click);
             // 
-            // button3
+            // btnHitungMK
             // 
-            this.button3.Location = new System.Drawing.Point(476, 273);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Hitung Mk";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnHitungMK.Location = new System.Drawing.Point(476, 273);
+            this.btnHitungMK.Name = "btnHitungMK";
+            this.btnHitungMK.Size = new System.Drawing.Size(75, 23);
+            this.btnHitungMK.TabIndex = 2;
+            this.btnHitungMK.Text = "Hitung Mk";
+            this.btnHitungMK.UseVisualStyleBackColor = true;
+            this.btnHitungMK.Click += new System.EventHandler(this.btnHitungMK_Click);
             // 
             // button4
             // 
@@ -98,7 +99,7 @@
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.hasil);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnHitungMK);
             this.Controls.Add(this.btnHitungMhs);
             this.Controls.Add(this.BtnConnect);
             this.Name = "Form1";
@@ -112,7 +113,7 @@
 
         private System.Windows.Forms.Button BtnConnect;
         private System.Windows.Forms.Button btnHitungMhs;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnHitungMK;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label hasil;
         private System.Windows.Forms.TextBox txtHasil;
