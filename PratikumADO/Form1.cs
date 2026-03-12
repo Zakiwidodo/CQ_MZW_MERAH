@@ -31,7 +31,16 @@ namespace PratikumADO
 
         private void BtnConnect_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Koneksi();
+                conn.Open();
 
+                MessageBox.Show("Koneksi ke database berhasil");
+
+                conn.Close();
+            }
+            
         }
     }
 }
