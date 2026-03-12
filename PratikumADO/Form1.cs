@@ -16,9 +16,17 @@ namespace PratikumADO
 
         SqlConnection conn;
         SqlCommand cmd;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Koneksi()
+        {
+            conn = new SqlConnection(
+                "Data Source=LAPTOP-OMSO8ATA\\KIKI;Initial Catalog=DBAkademikADO;Integrated Security=True"
+                );
         }
 
         private void BtnConnect_Click(object sender, EventArgs e)
