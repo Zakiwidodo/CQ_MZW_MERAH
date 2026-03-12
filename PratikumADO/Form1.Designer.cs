@@ -31,7 +31,7 @@
             this.BtnConnect = new System.Windows.Forms.Button();
             this.btnHitungMhs = new System.Windows.Forms.Button();
             this.btnHitungMK = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.hasil = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -66,14 +66,15 @@
             this.btnHitungMK.UseVisualStyleBackColor = true;
             this.btnHitungMK.Click += new System.EventHandler(this.btnHitungMK_Click);
             // 
-            // button4
+            // btnUpdate
             // 
-            this.button4.Location = new System.Drawing.Point(713, 273);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Update";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnUpdate.Location = new System.Drawing.Point(713, 273);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 3;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // hasil
             // 
@@ -98,7 +99,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.hasil);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnHitungMK);
             this.Controls.Add(this.btnHitungMhs);
             this.Controls.Add(this.BtnConnect);
@@ -114,7 +115,7 @@
         private System.Windows.Forms.Button BtnConnect;
         private System.Windows.Forms.Button btnHitungMhs;
         private System.Windows.Forms.Button btnHitungMK;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label hasil;
         private System.Windows.Forms.TextBox txtHasil;
     }
